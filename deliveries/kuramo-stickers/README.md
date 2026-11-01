@@ -25,13 +25,22 @@ GitHubにログインした状態で、次のリンクから取得してくだ�
 - No.39サブは指定の「（まじかよ…）」、No.40は残量1%を確認。
 - LINE公式の最新制作ガイドはHTTP 403で取得できなかったため、申請前の最新要件確認が必要です。LINEへの販売申請・公開は行っていません。
 
+## No.36 文言変更（2026-11-02）
+
+メイン文字を「それAIに聞いたら解決しますよ」に変更しました。一覧・PNG一式・申請候補・編集用元データに反映済みです。
+
+[No.36を原寸で開く](No36.png?raw=true)
+
+![No.36 それAIに聞いたら解決しますよ](No36.png)
+
 ## ファイル整合性
 
 SHA-256は以下のとおりです。
 
 ```
-894723d7c90e43854b48acc188fdab499202d05f2b9c2d2436b8156f261164c8  kuramo-40-stickers.zip
-4fb65722dca3ed55e55a4ed1b31ecaf82a92463a67cec1cd7b40fbe3978307be  kuramo-production-sources.zip
-af5cc58515ba195bda67b593dad6b357263644afe3849dd0d6e7347bc506d7df  line-upload-candidate.zip
-19a06f1bd9609c368d3c875f45b7947042d73bb687310f13e41e6daaf0384dbc  all-40.png
+45fb1b97e30e765033b375a7b50496f727e10402823863503e7f69a214a73408  kuramo-40-stickers.zip
+a6ce6cda801cb5aca3d27e240560e3bd40f6404c2a320a2ebe0d7cd2eaed75cb  kuramo-production-sources.zip
+39f72e636575f9f6e3f0273f8d5a6c17080464dbfdf929692e8943ea75708b6a  line-upload-candidate.zip
+a8a3831f8db727a19477a0fcfe883f1d760a437450cebd571e9492dca19ac87b  all-40.png
+f65b063f79fa4bac6aec00b4e68238384d34dd7637d9479d94f12024c4285ee3  No36.png
 ```
