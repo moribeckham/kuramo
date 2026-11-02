@@ -1,7 +1,7 @@
 {
   "archive": "LINE-submit-40-stickers.zip",
-  "bytes": 5581532,
-  "sha256": "467908fcff37af997ef8a5ca1ef5dce0039ca451ea06dbe7449b927248daac57",
+  "bytes": 5611013,
+  "sha256": "a8448d1afd1ea460c93de442af5adcee6b074998ce540f597d1f26f57b7fba18",
   "sticker_count": 40,
   "total_png_count": 42,
   "pngs_at_zip_root_only": true,
@@ -621,8 +621,8 @@
         255
       ],
       "transparent_outer_edges": true,
-      "bytes": 48510,
-      "sha256": "92881bda5720dd8e6a2835d5ecebb77f27e475fb0df1ecb8651d197d2c68319f"
+      "bytes": 76230,
+      "sha256": "08abf86a62ab1b5a9dcb7a1bc879efa5f1bd5aebda6c98744f25bc634b873382"
     },
     {
       "file": "tab.png",
@@ -636,8 +636,8 @@
         255
       ],
       "transparent_outer_edges": true,
-      "bytes": 6709,
-      "sha256": "4d207218a7cf7937ba9630c204d90703393c120bdeaab5d22224bc148d75544d"
+      "bytes": 8512,
+      "sha256": "b07dcdca6f46abf24f651f841624544e5360f481be9c34e7f5946c7914ab2907"
     }
   ]
 }

@@ -18,6 +18,16 @@ ZIPの直下に次の42枚だけを収録しています。すべてPNG（8bit R
 
 メインを個別に取得する場合は [main.png](main.png?raw=true)、タブは [tab.png](tab.png?raw=true) を使用できます。[全42画像の仕様検査結果](line-submission-checks.json)も保存しています。LINE側でのアップロード受理や審査通過は、こちらでは実行していません。
 
+## メイン・タブ（No.36採用）
+
+ユーザー選択の「それAIで即解決です」をメイン画像に採用しました。メインはセリフとAIロボットを含むNo.36、タブは同じクラモ君の笑顔アップです。いずれもPNG・背景透過済みで、申請用ZIPに反映しています。
+
+| メイン：240×240px | タブ：96×74px |
+|---|---|
+| [![No36メイン画像](main.png)](main.png?raw=true) | [![No36顔アップのタブ画像](tab.png)](tab.png?raw=true) |
+
+[メイン画像をダウンロード](main.png?raw=true) / [タブ画像をダウンロード](tab.png?raw=true) / [画像の検査結果](store-image-checks.json)
+
 ## Canvaで調整する場合
 
 [Canva用・高解像度PNG40枚をダウンロード](canva-editing-40.zip?raw=true)
@@ -27,6 +37,8 @@ ZIPを解凍すると、01.png〜40.pngの個別画像が入っています。14
 一覧画像の左上にあった確認用の「No.〇〇」は、すべて削除しました。個別PNGにも確認用番号は表示されません。下の一覧は確認用です。Canvaで使う際は一覧から切り出さず、上記の個別PNGをご利用ください。
 
 ## 最新修正（2026-11-02）
+
+- メイン・タブ：No.36のセリフ入り画像と、同じクラモ君の顔アップに変更。
 
 - No.18：チェックリストを両手で相手に差し出すポーズへ修正。
 - No.22：開いた手帳を両手で相手に見せるポーズへ修正。ペンは外縁に留めています。
@@ -48,7 +60,7 @@ GitHubにログインした状態で、次のリンクから取得してくだ�
 | **[LINE申請用ZIP](LINE-submit-40-stickers.zip?raw=true)** | **スタンプ40枚370×320px・main240×240px・tab96×74px。全42枚透過PNGのみ** | **約5.6MB** |
 | [Canva調整用・高解像度PNG40枚](canva-editing-40.zip?raw=true) | 番号表示なし・背景透過・1480×1280pxの個別PNG40枚 | 約38MB |
 | [PNG40枚・品質レポート](kuramo-40-stickers.zip?raw=true) | 個別PNG40枚、一覧、制作管理表、品質評価、仕様検査 | 約10MB |
-| [編集用元データ](kuramo-production-sources.zip?raw=true) | 原寸イラスト・マスター・編集用SVG・フォントとライセンス・プロンプト・スクリプト・修正前画像 | 約101MB |
+| [編集用元データ](kuramo-production-sources.zip?raw=true) | 原寸イラスト・マスター・編集用SVG・フォントとライセンス・プロンプト・スクリプト・修正前画像 | 約102MB |
 | [一覧画像の原寸表示](all-40.png?raw=true) | 5列×8行、全40種類 | 約4.5MB |
 
 ## 全40種類の一覧（番号表示なし）
@@ -69,14 +81,15 @@ GitHubにログインした状態で、次のリンクから取得してくだ�
 SHA-256は以下のとおりです。
 
 ```
-467908fcff37af997ef8a5ca1ef5dce0039ca451ea06dbe7449b927248daac57  LINE-submit-40-stickers.zip
-92881bda5720dd8e6a2835d5ecebb77f27e475fb0df1ecb8651d197d2c68319f  main.png
-4d207218a7cf7937ba9630c204d90703393c120bdeaab5d22224bc148d75544d  tab.png
-3bf2332fa6673cd29fec2b2dd4ff9bc82984c4edffaf1d294e0f4b2858660673  line-submission-checks.json
+a8448d1afd1ea460c93de442af5adcee6b074998ce540f597d1f26f57b7fba18  LINE-submit-40-stickers.zip
+08abf86a62ab1b5a9dcb7a1bc879efa5f1bd5aebda6c98744f25bc634b873382  main.png
+b07dcdca6f46abf24f651f841624544e5360f481be9c34e7f5946c7914ab2907  tab.png
+fe742782e50b9d43ec5c39beba51356df428b4bfb92af05cd628461d94f2682e  store-image-checks.json
+15769f240fe725fed09e2486355deaffc8fbc03ab79e065fe6a6f46d029875af  line-submission-checks.json
 32e36f898331ac5a47e7b1bdd1ff1ed62e7733050652db08c7506864c9af41ae  canva-editing-40.zip
-d01e8f4fc6184ff4b247ab5369024920603a817f8fdd95516e5368d46f76d4e1  kuramo-40-stickers.zip
-8c5c8a5ffe60bbccbd2c2f435e54400a1338ac347b7f55392a73c2e8c58c8794  kuramo-production-sources.zip
-467908fcff37af997ef8a5ca1ef5dce0039ca451ea06dbe7449b927248daac57  line-upload-candidate.zip
+8b2b7e844d0fb2f8aba963c2584603ba2f6ef0a9b712ec6e598b8d61a6b2c2e6  kuramo-40-stickers.zip
+614116f7ce88c0ed3614549ea4f80adf53afd72049d4f48138d4571ca1ee7e82  kuramo-production-sources.zip
+a8448d1afd1ea460c93de442af5adcee6b074998ce540f597d1f26f57b7fba18  line-upload-candidate.zip
 6ad17e45a9b3229aec539a426a1fa176a7cb7837a47cc7f96873900186b4608c  all-40.png
 8e1b32c19023fcec58b88d9bdcaf978ddff5e33b202364c0d3f79842d3d01dbe  No18.png
 c1f48a8a7ccfdc72dd32fe2c29754996b62d49dd00cd409c5c27246a08c4ce37  No22.png

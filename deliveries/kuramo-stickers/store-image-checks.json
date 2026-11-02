@@ -1,0 +1,39 @@
+{
+  "selected_sticker": 36,
+  "main": "Approved No36 sticker including Japanese text and AI robot",
+  "tab": "Face close-up based on the No36 illustration",
+  "files": [
+    {
+      "file": "main.png",
+      "width": 240,
+      "height": 240,
+      "format": "PNG",
+      "mode": "RGBA",
+      "bit_depth": 8,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_outer_edges": true,
+      "bytes": 76230,
+      "sha256": "08abf86a62ab1b5a9dcb7a1bc879efa5f1bd5aebda6c98744f25bc634b873382",
+      "source": "output/masters/No36_それAIで即解決です.png"
+    },
+    {
+      "file": "tab.png",
+      "width": 96,
+      "height": 74,
+      "format": "PNG",
+      "mode": "RGBA",
+      "bit_depth": 8,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_outer_edges": true,
+      "bytes": 8512,
+      "sha256": "b07dcdca6f46abf24f651f841624544e5360f481be9c34e7f5946c7914ab2907",
+      "source": "assets/thumbnail-sources/No36-face-tab.png"
+    }
+  ]
+}
