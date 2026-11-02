@@ -2,11 +2,27 @@
 
 追加のお手本4枚を基準に制作したNo.01〜40の最新版です。
 
+## LINE申請用ZIP
+
+**LINEへアップロードする場合は、[LINE-submit-40-stickers.zipをダウンロード](LINE-submit-40-stickers.zip?raw=true)してください。**
+
+ZIPの直下に次の42枚だけを収録しています。すべてPNG（8bit RGBA）・背景透過済みで、実ファイルを検査しました。
+
+| 内容 | ファイル名 | サイズ |
+|---|---|---|
+| スタンプ40枚 | 01.png〜40.png | 各370×320px |
+| メイン画像 | main.png | 240×240px |
+| タブ画像 | tab.png | 96×74px |
+
+容量は約5.6MBです。一覧画像、編集用の高解像度画像、レポート類は申請ZIPに含めていません。
+
+メインを個別に取得する場合は [main.png](main.png?raw=true)、タブは [tab.png](tab.png?raw=true) を使用できます。[全42画像の仕様検査結果](line-submission-checks.json)も保存しています。LINE側でのアップロード受理や審査通過は、こちらでは実行していません。
+
 ## Canvaで調整する場合
 
 [Canva用・高解像度PNG40枚をダウンロード](canva-editing-40.zip?raw=true)
 
-ZIPを解凍すると、01.png〜40.pngの個別画像が入っています。1480×1280px、RGBA、背景透過済みです。PNGをCanvaへアップロードし、調整後に申請用サイズで書き出してください。
+ZIPを解凍すると、01.png〜40.pngの個別画像が入っています。1480×1280px、RGBA、背景透過済みの編集素材です。Canvaで調整後はスタンプを最大370×320px、メインを240×240px、PNG・背景透過で書き出してください。
 
 一覧画像の左上にあった確認用の「No.〇〇」は、すべて削除しました。個別PNGにも確認用番号は表示されません。下の一覧は確認用です。Canvaで使う際は一覧から切り出さず、上記の個別PNGをご利用ください。
 
@@ -29,10 +45,10 @@ GitHubにログインした状態で、次のリンクから取得してくだ�
 
 | ファイル | 内容 | 容量 |
 |---|---|---:|
+| **[LINE申請用ZIP](LINE-submit-40-stickers.zip?raw=true)** | **スタンプ40枚370×320px・main240×240px・tab96×74px。全42枚透過PNGのみ** | **約5.6MB** |
 | [Canva調整用・高解像度PNG40枚](canva-editing-40.zip?raw=true) | 番号表示なし・背景透過・1480×1280pxの個別PNG40枚 | 約38MB |
 | [PNG40枚・品質レポート](kuramo-40-stickers.zip?raw=true) | 個別PNG40枚、一覧、制作管理表、品質評価、仕様検査 | 約10MB |
 | [編集用元データ](kuramo-production-sources.zip?raw=true) | 原寸イラスト・マスター・編集用SVG・フォントとライセンス・プロンプト・スクリプト・修正前画像 | 約101MB |
-| [LINE申請候補](line-upload-candidate.zip?raw=true) | 01.png〜40.png、main.png、tab.pngをZIPのルートに配置 | 約5.6MB |
 | [一覧画像の原寸表示](all-40.png?raw=true) | 5列×8行、全40種類 | 約4.5MB |
 
 ## 全40種類の一覧（番号表示なし）
@@ -53,10 +69,14 @@ GitHubにログインした状態で、次のリンクから取得してくだ�
 SHA-256は以下のとおりです。
 
 ```
+467908fcff37af997ef8a5ca1ef5dce0039ca451ea06dbe7449b927248daac57  LINE-submit-40-stickers.zip
+92881bda5720dd8e6a2835d5ecebb77f27e475fb0df1ecb8651d197d2c68319f  main.png
+4d207218a7cf7937ba9630c204d90703393c120bdeaab5d22224bc148d75544d  tab.png
+3bf2332fa6673cd29fec2b2dd4ff9bc82984c4edffaf1d294e0f4b2858660673  line-submission-checks.json
 32e36f898331ac5a47e7b1bdd1ff1ed62e7733050652db08c7506864c9af41ae  canva-editing-40.zip
-3d1749d4dbadadd18980ad4a3c55b2af7e3cadc3204b7a68486e1be6dfaee5ef  kuramo-40-stickers.zip
-9644cefa2e3c0ced3774d28a35f8ec755452d750fd358c90268387a2be04b42c  kuramo-production-sources.zip
-d1ff3e8cac5bdf6bd3dde2f484284ccb831d143df00e37df921f28089c6bf7e0  line-upload-candidate.zip
+d01e8f4fc6184ff4b247ab5369024920603a817f8fdd95516e5368d46f76d4e1  kuramo-40-stickers.zip
+8c5c8a5ffe60bbccbd2c2f435e54400a1338ac347b7f55392a73c2e8c58c8794  kuramo-production-sources.zip
+467908fcff37af997ef8a5ca1ef5dce0039ca451ea06dbe7449b927248daac57  line-upload-candidate.zip
 6ad17e45a9b3229aec539a426a1fa176a7cb7837a47cc7f96873900186b4608c  all-40.png
 8e1b32c19023fcec58b88d9bdcaf978ddff5e33b202364c0d3f79842d3d01dbe  No18.png
 c1f48a8a7ccfdc72dd32fe2c29754996b62d49dd00cd409c5c27246a08c4ce37  No22.png
